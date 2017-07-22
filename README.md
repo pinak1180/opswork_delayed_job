@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-opsworks_delayed_job
-====================
-
 These recipes set up an [AWS OpsWorks](http://aws.amazon.com/opsworks/) instance to run [delayed_job](https://github.com/collectiveidea/delayed_job) workers for a Rails application.
 
 
@@ -49,7 +45,3 @@ The layer's custom chef recipes should be associated with events as follows:
 
 
 copied from https://github.com/joeyAghion/opsworks_delayed_job
-=======
-# opswork_delayed_job
-opswork_delayed_job
->>>>>>> 1e559df512b2564e7a0b745d2bc2b044e02fdc09
