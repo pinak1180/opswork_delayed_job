@@ -1,0 +1,3 @@
+[submodule "monit"]
+	path = monit
+	url = git://github.com/apsoto/monit.git
