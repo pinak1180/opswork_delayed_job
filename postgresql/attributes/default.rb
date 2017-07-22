@@ -52,7 +52,7 @@ when "ubuntu"
   when node['platform_version'].to_f <= 11.04
     default['postgresql']['version'] = "8.4"
   else
-    default['postgresql']['version'] = "9.1"
+    default['postgresql']['version'] = "9.6"
   end
 
   default['postgresql']['dir'] = "/etc/postgresql/#{node['postgresql']['version']}/main"
@@ -506,4 +506,3 @@ default['postgresql']['pgdg']['repo_rpm_url'] = {
     }
   },
 };
-
